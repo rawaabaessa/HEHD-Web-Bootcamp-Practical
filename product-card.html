@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #1e293b;
+        }
+        div:first-child{
+            width: 300px;
+            background-color: white;
+            border-radius: 5px;
+            margin: auto;
+            
+        }
+        div:first-child div:first-of-type{
+            padding: 10px;
+        }
+        img{
+            width: 300px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        span, div > p:first-of-type{
+            color: gray;
+        }
+        div p:nth-child(4){
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="pro.jpg">
+        <div>
+            <h3>Plain White t-shirt</h3>
+            <p>Lorem ipsum dolor sit amet uas libero deserunt adipisci perferendis, distinctio sint laborum iste vel voluptas blanditiis ut beatae </p>
+            <span>6 Color</span>
+            <p>256$</p>
+        </div>
+    </div>
+</body>
+</html>
